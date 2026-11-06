@@ -1,0 +1,94 @@
+{
+  "model": "arcface_r50",
+  "flip_test": true,
+  "detection": {
+    "det": 7690,
+    "det_low_thresh": 11
+  },
+  "embed_ms_per_image": 130.76,
+  "accuracy": 99.833,
+  "accuracy_std": 0.197,
+  "auc": 0.99939,
+  "eer": 0.3,
+  "TAR@FAR=0.001": 99.7,
+  "TAR@FAR=0.01": 99.767,
+  "threshold_cos": 0.249,
+  "fold_accuracies": [
+    99.5,
+    100.0,
+    100.0,
+    99.83,
+    99.5,
+    100.0,
+    99.67,
+    100.0,
+    99.83,
+    100.0
+  ],
+  "num_errors_at_mean_threshold": 9,
+  "errors": [
+    {
+      "pair": 112,
+      "img1": "lfw\\Janica_Kostelic\\Janica_Kostelic_0001.jpg",
+      "img2": "lfw\\Janica_Kostelic\\Janica_Kostelic_0002.jpg",
+      "same": true,
+      "cos": 0.1643
+    },
+    {
+      "pair": 185,
+      "img1": "lfw\\Martha_Bowen\\Martha_Bowen_0001.jpg",
+      "img2": "lfw\\Martha_Bowen\\Martha_Bowen_0002.jpg",
+      "same": true,
+      "cos": 0.1706
+    },
+    {
+      "pair": 1861,
+      "img1": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0001.jpg",
+      "img2": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0002.jpg",
+      "same": true,
+      "cos": 0.0219
+    },
+    {
+      "pair": 2498,
+      "img1": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0001.jpg",
+      "img2": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0002.jpg",
+      "same": true,
+      "cos": 0.0169
+    },
+    {
+      "pair": 2550,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0002.jpg",
+      "same": true,
+      "cos": 0.022
+    },
+    {
+      "pair": 2551,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0003.jpg",
+      "same": true,
+      "cos": 0.014
+    },
+    {
+      "pair": 3651,
+      "img1": "lfw\\Debra_Messing\\Debra_Messing_0001.jpg",
+      "img2": "lfw\\Debra_Messing\\Debra_Messing_0002.jpg",
+      "same": true,
+      "cos": 0.131
+    },
+    {
+      "pair": 3872,
+      "img1": "lfw\\Surakait_Sathirathai\\Surakait_Sathirathai_0001.jpg",
+      "img2": "lfw\\Surakait_Sathirathai\\Surakait_Sathirathai_0002.jpg",
+      "same": true,
+      "cos": 0.119
+    },
+    {
+      "pair": 5004,
+      "img1": "lfw\\Nabil_Shaath\\Nabil_Shaath_0002.jpg",
+      "img2": "lfw\\Nabil_Shaath\\Nabil_Shaath_0003.jpg",
+      "same": true,
+      "cos": 0.0497
+    }
+  ]
+}

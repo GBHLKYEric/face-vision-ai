@@ -1,0 +1,72 @@
+[
+  {
+    "variant": "r18 PyTorch FP32",
+    "size_mb": 96.22,
+    "latency_ms": 19.52,
+    "lfw_acc": 98.867,
+    "note": ""
+  },
+  {
+    "variant": "r18 PyTorch BN融合",
+    "size_mb": 96.14,
+    "latency_ms": 19.19,
+    "lfw_acc": 98.867,
+    "note": "与原模型最大输出差 5.84e-06"
+  },
+  {
+    "variant": "r18 PyTorch 动态INT8",
+    "size_mb": 57.69,
+    "latency_ms": 18.74,
+    "lfw_acc": 98.85,
+    "note": "只量化全连接层"
+  },
+  {
+    "variant": "r18 剪枝30%",
+    "size_mb": 96.22,
+    "latency_ms": 20.78,
+    "lfw_acc": 98.667,
+    "note": "非结构化剪枝, 未微调; 稠密存储所以大小/速度不变"
+  },
+  {
+    "variant": "r18 剪枝50%",
+    "size_mb": 96.22,
+    "latency_ms": 20.63,
+    "lfw_acc": 98.633,
+    "note": "非结构化剪枝, 未微调; 稠密存储所以大小/速度不变"
+  },
+  {
+    "variant": "r18 剪枝70%",
+    "size_mb": 96.22,
+    "latency_ms": 22.08,
+    "lfw_acc": 98.633,
+    "note": "非结构化剪枝, 未微调; 稠密存储所以大小/速度不变"
+  },
+  {
+    "variant": "r18 ONNX FP32",
+    "size_mb": 96.12,
+    "latency_ms": 12.51,
+    "lfw_acc": 98.867,
+    "note": ""
+  },
+  {
+    "variant": "r18 ONNX INT8(静态)",
+    "size_mb": 24.21,
+    "latency_ms": 7.5,
+    "lfw_acc": 98.833,
+    "note": "逐通道权重 + 512 张 CelebA 校准"
+  },
+  {
+    "variant": "R50 老师 ONNX FP32",
+    "size_mb": 174.38,
+    "latency_ms": 48.24,
+    "lfw_acc": 99.85,
+    "note": ""
+  },
+  {
+    "variant": "R50 老师 ONNX INT8(静态)",
+    "size_mb": 43.98,
+    "latency_ms": 16.88,
+    "lfw_acc": 99.833,
+    "note": "先把算子集升级到 opset 13, 再逐通道量化; 同一时段 FP32 实测 41.7 ms"
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "model": "scrfd10g_1280",
+  "input_size": 1280,
+  "ms_per_image": 327.2,
+  "AP_easy": 91.84,
+  "AP_medium": 92.3,
+  "AP_hard": 88.78,
+  "num_faces": {
+    "easy": 7211,
+    "medium": 13319,
+    "hard": 31958
+  }
+}

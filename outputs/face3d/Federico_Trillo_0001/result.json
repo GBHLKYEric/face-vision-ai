@@ -1,0 +1,35 @@
+{
+  "input": "data\\lfw\\Federico_Trillo\\Federico_Trillo_0001.jpg",
+  "image_size": [
+    250,
+    250
+  ],
+  "num_vertices": 38365,
+  "num_triangles": 76073,
+  "mesh_overlay_ms": 170.9,
+  "faces": [
+    {
+      "bbox": [
+        94.1,
+        51.0,
+        197.5,
+        189.6
+      ],
+      "score": 0.677,
+      "roi_box": [
+        50.3,
+        41.8,
+        241.3,
+        232.8
+      ],
+      "pose_deg": {
+        "yaw": 49.69,
+        "pitch": 20.32,
+        "roll": 0.04
+      },
+      "fit_ms": 27.5,
+      "render_view_512_ms": 268.0,
+      "video": true
+    }
+  ]
+}

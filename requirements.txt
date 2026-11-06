@@ -1,0 +1,27 @@
+# 本项目实测版本 (Windows 11 / Python 3.12)。
+# PyTorch 请按硬件单独安装:
+#   Intel 核显/独显 (XPU): pip install torch torchvision --index-url https://download.pytorch.org/whl/xpu
+#   NVIDIA (CUDA):         pip install torch torchvision --index-url https://download.pytorch.org/whl/cu128
+#   仅 CPU:                pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+torch>=2.5
+torchvision>=0.20
+numpy>=2.0
+opencv-contrib-python>=4.10
+onnx>=1.17
+onnxruntime>=1.20
+onnxscript>=0.2
+onnx2torch>=1.5
+mediapipe>=0.10.20
+gradio>=5.0
+scipy>=1.13
+scikit-learn>=1.5
+matplotlib>=3.9
+tqdm>=4.66
+pillow>=10.0
+pyyaml>=6.0
+pandas>=2.2
+pyarrow>=17.0
+huggingface_hub>=0.25
+pytorch-fid>=0.3.0
+python-pptx>=1.0
+pytest>=8.0

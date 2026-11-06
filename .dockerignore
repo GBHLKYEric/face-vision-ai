@@ -1,0 +1,8 @@
+data/
+weights/
+runs/
+logs/
+outputs/
+_scratch/
+.git/
+**/__pycache__/

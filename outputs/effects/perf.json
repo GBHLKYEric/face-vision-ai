@@ -1,0 +1,271 @@
+{
+  "system": {
+    "platform": "Windows-11-10.0.26100-SP0",
+    "processor": "Intel64 Family 6 Model 197 Stepping 2, GenuineIntel",
+    "cpu_count": 14,
+    "python": "3.12.14",
+    "opencv": "5.0.0",
+    "opencv_threads": 14,
+    "windows_power_throttling_disabled_for_this_process": true,
+    "note": "CPU only; numbers measured while another long CPU job was running may be pessimistic",
+    "mediapipe": "1.2.0"
+  },
+  "results": {
+    "640x480": {
+      "frames": 90,
+      "face_detected_frames": 95,
+      "stages_ms": {
+        "landmarks (MediaPipe)": {
+          "mean": 7.12,
+          "median": 6.69,
+          "p90": 7.53
+        },
+        "one_euro": {
+          "mean": 0.28,
+          "median": 0.26,
+          "p90": 0.34
+        },
+        "sunglasses": {
+          "mean": 0.36,
+          "median": 0.36,
+          "p90": 0.42
+        },
+        "hat": {
+          "mean": 0.84,
+          "median": 0.82,
+          "p90": 0.94
+        },
+        "cat_ears": {
+          "mean": 0.55,
+          "median": 0.54,
+          "p90": 0.61
+        },
+        "mustache": {
+          "mean": 0.21,
+          "median": 0.21,
+          "p90": 0.23
+        },
+        "smooth": {
+          "mean": 2.05,
+          "median": 2.0,
+          "p90": 2.26
+        },
+        "whiten": {
+          "mean": 2.29,
+          "median": 2.25,
+          "p90": 2.54
+        },
+        "slim": {
+          "mean": 0.84,
+          "median": 0.83,
+          "p90": 0.91
+        },
+        "big_eyes": {
+          "mean": 0.25,
+          "median": 0.23,
+          "p90": 0.31
+        },
+        "lipstick": {
+          "mean": 0.28,
+          "median": 0.26,
+          "p90": 0.34
+        },
+        "blush": {
+          "mean": 1.49,
+          "median": 1.41,
+          "p90": 1.75
+        },
+        "eyeliner": {
+          "mean": 0.24,
+          "median": 0.22,
+          "p90": 0.29
+        },
+        "mesh": {
+          "mean": 2.31,
+          "median": 2.05,
+          "p90": 2.34
+        },
+        "avatar": {
+          "mean": 6.54,
+          "median": 6.39,
+          "p90": 7.4
+        },
+        "  (skin_mask, shared)": {
+          "mean": 0.7,
+          "median": 0.68,
+          "p90": 0.8
+        }
+      },
+      "end_to_end": {
+        "landmarks only": {
+          "mean": 7.1,
+          "median": 6.96,
+          "p90": 7.75,
+          "fps": 143.7
+        },
+        "stickers (sunglasses+hat)": {
+          "mean": 8.61,
+          "median": 8.45,
+          "p90": 9.43,
+          "fps": 118.3
+        },
+        "beauty (smooth+whiten+slim+big_eyes)": {
+          "mean": 13.18,
+          "median": 12.93,
+          "p90": 13.97,
+          "fps": 77.3
+        },
+        "makeup (lipstick+blush+eyeliner)": {
+          "mean": 9.88,
+          "median": 9.6,
+          "p90": 10.96,
+          "fps": 104.2
+        },
+        "beauty + makeup (7 effects)": {
+          "mean": 14.58,
+          "median": 14.26,
+          "p90": 15.81,
+          "fps": 70.1
+        },
+        "avatar": {
+          "mean": 14.22,
+          "median": 13.89,
+          "p90": 15.39,
+          "fps": 72.0
+        }
+      }
+    },
+    "1280x720": {
+      "frames": 90,
+      "face_detected_frames": 94,
+      "stages_ms": {
+        "landmarks (MediaPipe)": {
+          "mean": 8.39,
+          "median": 8.16,
+          "p90": 9.27
+        },
+        "one_euro": {
+          "mean": 0.27,
+          "median": 0.25,
+          "p90": 0.32
+        },
+        "sunglasses": {
+          "mean": 0.86,
+          "median": 0.86,
+          "p90": 0.94
+        },
+        "hat": {
+          "mean": 3.04,
+          "median": 2.65,
+          "p90": 4.48
+        },
+        "cat_ears": {
+          "mean": 1.47,
+          "median": 1.43,
+          "p90": 1.73
+        },
+        "mustache": {
+          "mean": 0.51,
+          "median": 0.49,
+          "p90": 0.61
+        },
+        "smooth": {
+          "mean": 8.78,
+          "median": 8.74,
+          "p90": 10.19
+        },
+        "whiten": {
+          "mean": 6.72,
+          "median": 6.7,
+          "p90": 7.93
+        },
+        "slim": {
+          "mean": 1.79,
+          "median": 1.76,
+          "p90": 2.0
+        },
+        "big_eyes": {
+          "mean": 0.53,
+          "median": 0.51,
+          "p90": 0.63
+        },
+        "lipstick": {
+          "mean": 0.59,
+          "median": 0.56,
+          "p90": 0.76
+        },
+        "blush": {
+          "mean": 3.26,
+          "median": 3.19,
+          "p90": 3.67
+        },
+        "eyeliner": {
+          "mean": 0.44,
+          "median": 0.41,
+          "p90": 0.61
+        },
+        "mesh": {
+          "mean": 2.81,
+          "median": 2.31,
+          "p90": 2.71
+        },
+        "avatar": {
+          "mean": 7.42,
+          "median": 7.39,
+          "p90": 8.2
+        },
+        "  (skin_mask, shared)": {
+          "mean": 2.31,
+          "median": 2.23,
+          "p90": 2.61
+        }
+      },
+      "end_to_end": {
+        "landmarks only": {
+          "mean": 9.97,
+          "median": 9.84,
+          "p90": 10.9,
+          "fps": 101.6
+        },
+        "stickers (sunglasses+hat)": {
+          "mean": 13.98,
+          "median": 13.48,
+          "p90": 15.83,
+          "fps": 74.2
+        },
+        "beauty (smooth+whiten+slim+big_eyes)": {
+          "mean": 29.16,
+          "median": 28.53,
+          "p90": 32.8,
+          "fps": 35.1
+        },
+        "makeup (lipstick+blush+eyeliner)": {
+          "mean": 15.04,
+          "median": 14.55,
+          "p90": 16.47,
+          "fps": 68.7
+        },
+        "beauty + makeup (7 effects)": {
+          "mean": 32.39,
+          "median": 31.59,
+          "p90": 36.03,
+          "fps": 31.7
+        },
+        "avatar": {
+          "mean": 18.43,
+          "median": 18.29,
+          "p90": 20.41,
+          "fps": 54.7
+        }
+      }
+    }
+  },
+  "one_euro_jitter": {
+    "frames": 300,
+    "mean_iod_px": 65.7,
+    "jitter_raw_iod": 0.02007,
+    "jitter_one_euro_iod": 0.01288,
+    "jitter_reduction": 0.358,
+    "mean_offset_vs_raw_iod": 0.04527
+  }
+}

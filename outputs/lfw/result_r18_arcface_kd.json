@@ -1,0 +1,499 @@
+{
+  "model": "r18_arcface_kd",
+  "flip_test": true,
+  "detection": {
+    "det": 7701
+  },
+  "embed_ms_per_image": 6.21,
+  "accuracy": 98.867,
+  "accuracy_std": 0.657,
+  "auc": 0.998464,
+  "eer": 1.267,
+  "TAR@FAR=0.001": 96.3,
+  "TAR@FAR=0.01": 98.567,
+  "threshold_cos": 0.1938,
+  "fold_accuracies": [
+    99.67,
+    99.5,
+    99.0,
+    99.0,
+    97.83,
+    99.33,
+    97.83,
+    98.83,
+    99.5,
+    98.17
+  ],
+  "num_errors_at_mean_threshold": 67,
+  "errors": [
+    {
+      "pair": 171,
+      "img1": "lfw\\Lance_Armstrong\\Lance_Armstrong_0014.jpg",
+      "img2": "lfw\\Lance_Armstrong\\Lance_Armstrong_0017.jpg",
+      "same": true,
+      "cos": 0.1467
+    },
+    {
+      "pair": 201,
+      "img1": "lfw\\Nora_Bendijo\\Nora_Bendijo_0001.jpg",
+      "img2": "lfw\\Nora_Bendijo\\Nora_Bendijo_0002.jpg",
+      "same": true,
+      "cos": 0.1368
+    },
+    {
+      "pair": 629,
+      "img1": "lfw\\Anna_Kournikova\\Anna_Kournikova_0007.jpg",
+      "img2": "lfw\\Anna_Kournikova\\Anna_Kournikova_0011.jpg",
+      "same": true,
+      "cos": 0.0936
+    },
+    {
+      "pair": 747,
+      "img1": "lfw\\Jelena_Dokic\\Jelena_Dokic_0004.jpg",
+      "img2": "lfw\\Jelena_Dokic\\Jelena_Dokic_0005.jpg",
+      "same": true,
+      "cos": 0.1766
+    },
+    {
+      "pair": 831,
+      "img1": "lfw\\Saddam_Hussein\\Saddam_Hussein_0002.jpg",
+      "img2": "lfw\\Saddam_Hussein\\Saddam_Hussein_0010.jpg",
+      "same": true,
+      "cos": 0.1035
+    },
+    {
+      "pair": 1229,
+      "img1": "lfw\\Bob_Hope\\Bob_Hope_0004.jpg",
+      "img2": "lfw\\Bob_Hope\\Bob_Hope_0005.jpg",
+      "same": true,
+      "cos": 0.0895
+    },
+    {
+      "pair": 1230,
+      "img1": "lfw\\Bob_Hope\\Bob_Hope_0004.jpg",
+      "img2": "lfw\\Bob_Hope\\Bob_Hope_0007.jpg",
+      "same": true,
+      "cos": 0.1626
+    },
+    {
+      "pair": 1233,
+      "img1": "lfw\\Carlos_Ruiz\\Carlos_Ruiz_0001.jpg",
+      "img2": "lfw\\Carlos_Ruiz\\Carlos_Ruiz_0003.jpg",
+      "same": true,
+      "cos": 0.1456
+    },
+    {
+      "pair": 1346,
+      "img1": "lfw\\Ken_Watanabe\\Ken_Watanabe_0001.jpg",
+      "img2": "lfw\\Ken_Watanabe\\Ken_Watanabe_0002.jpg",
+      "same": true,
+      "cos": 0.1917
+    },
+    {
+      "pair": 1461,
+      "img1": "lfw\\Shane_Warne\\Shane_Warne_0001.jpg",
+      "img2": "lfw\\Shane_Warne\\Shane_Warne_0002.jpg",
+      "same": true,
+      "cos": 0.139
+    },
+    {
+      "pair": 1465,
+      "img1": "lfw\\Silvan_Shalom\\Silvan_Shalom_0002.jpg",
+      "img2": "lfw\\Silvan_Shalom\\Silvan_Shalom_0004.jpg",
+      "same": true,
+      "cos": 0.1606
+    },
+    {
+      "pair": 1843,
+      "img1": "lfw\\Celine_Dion\\Celine_Dion_0003.jpg",
+      "img2": "lfw\\Celine_Dion\\Celine_Dion_0008.jpg",
+      "same": true,
+      "cos": 0.0847
+    },
+    {
+      "pair": 1861,
+      "img1": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0001.jpg",
+      "img2": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0002.jpg",
+      "same": true,
+      "cos": 0.04
+    },
+    {
+      "pair": 1918,
+      "img1": "lfw\\Jennifer_Capriati\\Jennifer_Capriati_0007.jpg",
+      "img2": "lfw\\Jennifer_Capriati\\Jennifer_Capriati_0032.jpg",
+      "same": true,
+      "cos": 0.1739
+    },
+    {
+      "pair": 2009,
+      "img1": "lfw\\Paula_Radcliffe\\Paula_Radcliffe_0004.jpg",
+      "img2": "lfw\\Paula_Radcliffe\\Paula_Radcliffe_0005.jpg",
+      "same": true,
+      "cos": 0.0654
+    },
+    {
+      "pair": 2134,
+      "img1": "lfw\\Antonio_Palocci\\Antonio_Palocci_0005.jpg",
+      "img2": "lfw\\Jose_Woldenberg\\Jose_Woldenberg_0001.jpg",
+      "same": false,
+      "cos": 0.2363
+    },
+    {
+      "pair": 2321,
+      "img1": "lfw\\Jim_Bunning\\Jim_Bunning_0001.jpg",
+      "img2": "lfw\\Terence_Newman\\Terence_Newman_0001.jpg",
+      "same": false,
+      "cos": 0.2205
+    },
+    {
+      "pair": 2433,
+      "img1": "lfw\\Bob_Huggins\\Bob_Huggins_0001.jpg",
+      "img2": "lfw\\Bob_Huggins\\Bob_Huggins_0003.jpg",
+      "same": true,
+      "cos": 0.0864
+    },
+    {
+      "pair": 2434,
+      "img1": "lfw\\Bob_Huggins\\Bob_Huggins_0003.jpg",
+      "img2": "lfw\\Bob_Huggins\\Bob_Huggins_0004.jpg",
+      "same": true,
+      "cos": 0.0895
+    },
+    {
+      "pair": 2498,
+      "img1": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0001.jpg",
+      "img2": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0002.jpg",
+      "same": true,
+      "cos": 0.0731
+    },
+    {
+      "pair": 2550,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0002.jpg",
+      "same": true,
+      "cos": -0.0035
+    },
+    {
+      "pair": 2551,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0003.jpg",
+      "same": true,
+      "cos": 0.0449
+    },
+    {
+      "pair": 2583,
+      "img1": "lfw\\Mahathir_Mohamad\\Mahathir_Mohamad_0001.jpg",
+      "img2": "lfw\\Mahathir_Mohamad\\Mahathir_Mohamad_0007.jpg",
+      "same": true,
+      "cos": 0.1683
+    },
+    {
+      "pair": 2673,
+      "img1": "lfw\\Tiger_Woods\\Tiger_Woods_0005.jpg",
+      "img2": "lfw\\Tiger_Woods\\Tiger_Woods_0012.jpg",
+      "same": true,
+      "cos": 0.1572
+    },
+    {
+      "pair": 2674,
+      "img1": "lfw\\Tiger_Woods\\Tiger_Woods_0006.jpg",
+      "img2": "lfw\\Tiger_Woods\\Tiger_Woods_0018.jpg",
+      "same": true,
+      "cos": 0.1091
+    },
+    {
+      "pair": 2698,
+      "img1": "lfw\\Zhang_Ziyi\\Zhang_Ziyi_0001.jpg",
+      "img2": "lfw\\Zhang_Ziyi\\Zhang_Ziyi_0003.jpg",
+      "same": true,
+      "cos": 0.0998
+    },
+    {
+      "pair": 2716,
+      "img1": "lfw\\Alfred_Sant\\Alfred_Sant_0001.jpg",
+      "img2": "lfw\\Randall_Tobias\\Randall_Tobias_0001.jpg",
+      "same": false,
+      "cos": 0.2005
+    },
+    {
+      "pair": 2746,
+      "img1": "lfw\\Arnold_Scott\\Arnold_Scott_0001.jpg",
+      "img2": "lfw\\Randy_Dryer\\Randy_Dryer_0001.jpg",
+      "same": false,
+      "cos": 0.236
+    },
+    {
+      "pair": 2758,
+      "img1": "lfw\\Betty_Williams\\Betty_Williams_0001.jpg",
+      "img2": "lfw\\Mary_Catherine_Correll\\Mary_Catherine_Correll_0001.jpg",
+      "same": false,
+      "cos": 0.2013
+    },
+    {
+      "pair": 2884,
+      "img1": "lfw\\Henri_Proglio\\Henri_Proglio_0001.jpg",
+      "img2": "lfw\\Ibrahim_Haddad\\Ibrahim_Haddad_0001.jpg",
+      "same": false,
+      "cos": 0.2231
+    },
+    {
+      "pair": 3154,
+      "img1": "lfw\\Julia_Tymoshenko\\Julia_Tymoshenko_0001.jpg",
+      "img2": "lfw\\Julia_Tymoshenko\\Julia_Tymoshenko_0002.jpg",
+      "same": true,
+      "cos": 0.1189
+    },
+    {
+      "pair": 3155,
+      "img1": "lfw\\Julia_Tymoshenko\\Julia_Tymoshenko_0001.jpg",
+      "img2": "lfw\\Julia_Tymoshenko\\Julia_Tymoshenko_0003.jpg",
+      "same": true,
+      "cos": 0.1817
+    },
+    {
+      "pair": 3165,
+      "img1": "lfw\\Kristanna_Loken\\Kristanna_Loken_0003.jpg",
+      "img2": "lfw\\Kristanna_Loken\\Kristanna_Loken_0004.jpg",
+      "same": true,
+      "cos": 0.1636
+    },
+    {
+      "pair": 3295,
+      "img1": "lfw\\Xanana_Gusmao\\Xanana_Gusmao_0004.jpg",
+      "img2": "lfw\\Xanana_Gusmao\\Xanana_Gusmao_0005.jpg",
+      "same": true,
+      "cos": 0.1859
+    },
+    {
+      "pair": 3600,
+      "img1": "lfw\\Adam_Scott\\Adam_Scott_0001.jpg",
+      "img2": "lfw\\Adam_Scott\\Adam_Scott_0002.jpg",
+      "same": true,
+      "cos": 0.0736
+    },
+    {
+      "pair": 3639,
+      "img1": "lfw\\Christina_Aguilera\\Christina_Aguilera_0001.jpg",
+      "img2": "lfw\\Christina_Aguilera\\Christina_Aguilera_0002.jpg",
+      "same": true,
+      "cos": 0.1677
+    },
+    {
+      "pair": 3641,
+      "img1": "lfw\\Christina_Aguilera\\Christina_Aguilera_0002.jpg",
+      "img2": "lfw\\Christina_Aguilera\\Christina_Aguilera_0004.jpg",
+      "same": true,
+      "cos": 0.1514
+    },
+    {
+      "pair": 3651,
+      "img1": "lfw\\Debra_Messing\\Debra_Messing_0001.jpg",
+      "img2": "lfw\\Debra_Messing\\Debra_Messing_0002.jpg",
+      "same": true,
+      "cos": 0.1601
+    },
+    {
+      "pair": 3765,
+      "img1": "lfw\\Luis_Horna\\Luis_Horna_0002.jpg",
+      "img2": "lfw\\Luis_Horna\\Luis_Horna_0004.jpg",
+      "same": true,
+      "cos": 0.1169
+    },
+    {
+      "pair": 3891,
+      "img1": "lfw\\Victoria_Beckham\\Victoria_Beckham_0001.jpg",
+      "img2": "lfw\\Victoria_Beckham\\Victoria_Beckham_0002.jpg",
+      "same": true,
+      "cos": 0.0316
+    },
+    {
+      "pair": 3892,
+      "img1": "lfw\\Victoria_Beckham\\Victoria_Beckham_0001.jpg",
+      "img2": "lfw\\Victoria_Beckham\\Victoria_Beckham_0003.jpg",
+      "same": true,
+      "cos": 0.0932
+    },
+    {
+      "pair": 3928,
+      "img1": "lfw\\Andy_North\\Andy_North_0001.jpg",
+      "img2": "lfw\\Marina_Kuptsova\\Marina_Kuptsova_0001.jpg",
+      "same": false,
+      "cos": 0.2445
+    },
+    {
+      "pair": 3944,
+      "img1": "lfw\\Bill_Byrne\\Bill_Byrne_0001.jpg",
+      "img2": "lfw\\Bill_Sizemore\\Bill_Sizemore_0001.jpg",
+      "same": false,
+      "cos": 0.2368
+    },
+    {
+      "pair": 4055,
+      "img1": "lfw\\Glen_Sather\\Glen_Sather_0001.jpg",
+      "img2": "lfw\\Trevor_Watson\\Trevor_Watson_0001.jpg",
+      "same": false,
+      "cos": 0.2089
+    },
+    {
+      "pair": 4168,
+      "img1": "lfw\\Monica_Seles\\Monica_Seles_0002.jpg",
+      "img2": "lfw\\Queen_Beatrix\\Queen_Beatrix_0004.jpg",
+      "same": false,
+      "cos": 0.1983
+    },
+    {
+      "pair": 4175,
+      "img1": "lfw\\Phil_Morris\\Phil_Morris_0001.jpg",
+      "img2": "lfw\\Priscilla_Owen\\Priscilla_Owen_0002.jpg",
+      "same": false,
+      "cos": 0.2241
+    },
+    {
+      "pair": 4241,
+      "img1": "lfw\\Colin_Montgomerie\\Colin_Montgomerie_0001.jpg",
+      "img2": "lfw\\Colin_Montgomerie\\Colin_Montgomerie_0004.jpg",
+      "same": true,
+      "cos": 0.1775
+    },
+    {
+      "pair": 4264,
+      "img1": "lfw\\Filippo_Inzaghi\\Filippo_Inzaghi_0001.jpg",
+      "img2": "lfw\\Filippo_Inzaghi\\Filippo_Inzaghi_0003.jpg",
+      "same": true,
+      "cos": 0.1881
+    },
+    {
+      "pair": 4269,
+      "img1": "lfw\\Franz_Muentefering\\Franz_Muentefering_0003.jpg",
+      "img2": "lfw\\Franz_Muentefering\\Franz_Muentefering_0004.jpg",
+      "same": true,
+      "cos": 0.1187
+    },
+    {
+      "pair": 4290,
+      "img1": "lfw\\Horst_Koehler\\Horst_Koehler_0001.jpg",
+      "img2": "lfw\\Horst_Koehler\\Horst_Koehler_0003.jpg",
+      "same": true,
+      "cos": 0.1655
+    },
+    {
+      "pair": 4291,
+      "img1": "lfw\\Horst_Koehler\\Horst_Koehler_0002.jpg",
+      "img2": "lfw\\Horst_Koehler\\Horst_Koehler_0003.jpg",
+      "same": true,
+      "cos": 0.1938
+    },
+    {
+      "pair": 4584,
+      "img1": "lfw\\Cha_Yung-gu\\Cha_Yung-gu_0001.jpg",
+      "img2": "lfw\\Takeo_Hiranuma\\Takeo_Hiranuma_0001.jpg",
+      "same": false,
+      "cos": 0.2756
+    },
+    {
+      "pair": 4791,
+      "img1": "lfw\\Robert_Vowler\\Robert_Vowler_0001.jpg",
+      "img2": "lfw\\Tab_Baldwin\\Tab_Baldwin_0001.jpg",
+      "same": false,
+      "cos": 0.2462
+    },
+    {
+      "pair": 4973,
+      "img1": "lfw\\Larry_Brown\\Larry_Brown_0004.jpg",
+      "img2": "lfw\\Larry_Brown\\Larry_Brown_0007.jpg",
+      "same": true,
+      "cos": 0.1295
+    },
+    {
+      "pair": 5280,
+      "img1": "lfw\\Jack_Straw\\Jack_Straw_0001.jpg",
+      "img2": "lfw\\Manuel_Gehring\\Manuel_Gehring_0001.jpg",
+      "same": false,
+      "cos": 0.2259
+    },
+    {
+      "pair": 5323,
+      "img1": "lfw\\Junichi_Inamoto\\Junichi_Inamoto_0001.jpg",
+      "img2": "lfw\\Oleg_Romantsev\\Oleg_Romantsev_0001.jpg",
+      "same": false,
+      "cos": 0.2401
+    },
+    {
+      "pair": 5477,
+      "img1": "lfw\\David_Wells\\David_Wells_0005.jpg",
+      "img2": "lfw\\David_Wells\\David_Wells_0006.jpg",
+      "same": true,
+      "cos": 0.1637
+    },
+    {
+      "pair": 5555,
+      "img1": "lfw\\John_Ashcroft\\John_Ashcroft_0042.jpg",
+      "img2": "lfw\\John_Ashcroft\\John_Ashcroft_0043.jpg",
+      "same": true,
+      "cos": 0.1497
+    },
+    {
+      "pair": 5573,
+      "img1": "lfw\\Kimi_Raikkonen\\Kimi_Raikkonen_0002.jpg",
+      "img2": "lfw\\Kimi_Raikkonen\\Kimi_Raikkonen_0003.jpg",
+      "same": true,
+      "cos": 0.1859
+    },
+    {
+      "pair": 5620,
+      "img1": "lfw\\Michael_Chang\\Michael_Chang_0001.jpg",
+      "img2": "lfw\\Michael_Chang\\Michael_Chang_0003.jpg",
+      "same": true,
+      "cos": 0.1435
+    },
+    {
+      "pair": 5644,
+      "img1": "lfw\\Ozzy_Osbourne\\Ozzy_Osbourne_0001.jpg",
+      "img2": "lfw\\Ozzy_Osbourne\\Ozzy_Osbourne_0003.jpg",
+      "same": true,
+      "cos": 0.1259
+    },
+    {
+      "pair": 5647,
+      "img1": "lfw\\Paul_Martin\\Paul_Martin_0001.jpg",
+      "img2": "lfw\\Paul_Martin\\Paul_Martin_0007.jpg",
+      "same": true,
+      "cos": 0.1826
+    },
+    {
+      "pair": 5680,
+      "img1": "lfw\\Stephen_Ambrose\\Stephen_Ambrose_0001.jpg",
+      "img2": "lfw\\Stephen_Ambrose\\Stephen_Ambrose_0002.jpg",
+      "same": true,
+      "cos": 0.1317
+    },
+    {
+      "pair": 5779,
+      "img1": "lfw\\Bob_Hayes\\Bob_Hayes_0001.jpg",
+      "img2": "lfw\\Zhu_Rongji\\Zhu_Rongji_0008.jpg",
+      "same": false,
+      "cos": 0.1982
+    },
+    {
+      "pair": 5838,
+      "img1": "lfw\\Dwain_Kyles\\Dwain_Kyles_0001.jpg",
+      "img2": "lfw\\Gregory_Peck\\Gregory_Peck_0001.jpg",
+      "same": false,
+      "cos": 0.2228
+    },
+    {
+      "pair": 5852,
+      "img1": "lfw\\Franklin_Brown\\Franklin_Brown_0001.jpg",
+      "img2": "lfw\\Michael_Jackson\\Michael_Jackson_0010.jpg",
+      "same": false,
+      "cos": 0.2842
+    },
+    {
+      "pair": 5961,
+      "img1": "lfw\\Michael_Bloomberg\\Michael_Bloomberg_0015.jpg",
+      "img2": "lfw\\Ozzy_Osbourne\\Ozzy_Osbourne_0002.jpg",
+      "same": false,
+      "cos": 0.247
+    }
+  ]
+}

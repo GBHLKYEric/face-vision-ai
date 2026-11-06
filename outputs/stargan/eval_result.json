@@ -1,0 +1,157 @@
+{
+  "model": "official StarGAN CelebA 128x128 (yunjey/stargan, 200000 iters)",
+  "data": {
+    "split": "CelebA official test split (parquet file order)",
+    "n_inputs_A": 2000,
+    "n_reference_B": 2000,
+    "A_first_last": [
+      "193295.png",
+      "198521.png"
+    ],
+    "B_first_last": [
+      "184347.png",
+      "189120.png"
+    ],
+    "c_org": "CelebA ground-truth labels (as in the official test code)"
+  },
+  "fid": {
+    "real_A_vs_real_B (baseline: same distribution, finite-sample floor)": 16.72,
+    "recon_vs_real_B": 21.47,
+    "black_hair_vs_real_B": 29.29,
+    "blond_hair_vs_real_B": 33.9,
+    "brown_hair_vs_real_B": 25.47,
+    "flip_gender_vs_real_B": 28.74,
+    "flip_age_vs_real_B": 29.42
+  },
+  "fid_hair_vs_target_domain": {
+    "black_hair": {
+      "fid_edit_vs_real_target_domain": 26.9,
+      "fid_real_A_vs_real_target_domain (reference)": 27.49,
+      "n_ref": 2000
+    },
+    "blond_hair": {
+      "fid_edit_vs_real_target_domain": 23.69,
+      "fid_real_A_vs_real_target_domain (reference)": 27.47,
+      "n_ref": 2000
+    },
+    "brown_hair": {
+      "fid_edit_vs_real_target_domain": 22.11,
+      "fid_real_A_vs_real_target_domain (reference)": 17.52,
+      "n_ref": 2000
+    }
+  },
+  "reconstruction": {
+    "L1_G(x,c_org)_vs_x_[-1,1]": 0.0915,
+    "mean_abs_error_0_255": 11.67,
+    "L1_if_G.eval()_uses_running_stats_(first 200)": 0.2292,
+    "L1_instance_stats_(first 200, same images)": 0.0953
+  },
+  "aux_classifier_D": {
+    "acc_on_real_inputs_per_attr": {
+      "Black_Hair": 0.9185,
+      "Blond_Hair": 0.9705,
+      "Brown_Hair": 0.886,
+      "Male": 0.9775,
+      "Young": 0.91
+    },
+    "target_attr_reached_on_edits (optimistic: G was trained against this D)": {
+      "black_hair": 0.99,
+      "blond_hair": 0.964,
+      "brown_hair": 0.978,
+      "flip_gender": 0.9665,
+      "flip_age": 0.9825
+    }
+  },
+  "genderage_independent_check": {
+    "detector_found_face": "2000/2000",
+    "genderage_reliability_on_real_inputs": {
+      "gender_acc_vs_celeba_label": 0.973,
+      "mean_pred_age_young_label": 32.9,
+      "mean_pred_age_not_young_label": 49.9
+    },
+    "gender_flip": {
+      "success_rate_pred_changed": 0.8665,
+      "success_rate_matches_target_label": 0.8935,
+      "male_to_female": {
+        "n": 477,
+        "rate": 0.9015
+      },
+      "female_to_male": {
+        "n": 1523,
+        "rate": 0.8555
+      }
+    },
+    "age_flip": {
+      "young_to_old": {
+        "n": 1642,
+        "success_rate_age_increased": 0.9963,
+        "success_rate_increase_ge_5y": 0.9909,
+        "mean_delta_age": 25.22
+      },
+      "old_to_young": {
+        "n": 358,
+        "success_rate_age_decreased": 0.9274,
+        "success_rate_decrease_ge_5y": 0.7765,
+        "mean_delta_age": -12.87
+      },
+      "overall_success_rate": 0.984
+    }
+  },
+  "lfw_photos": {
+    "Colin_Powell": {
+      "estimated_src_attrs_by_D": {
+        "Black_Hair": 0.0,
+        "Blond_Hair": 0.0,
+        "Brown_Hair": 0.0,
+        "Male": 1.0,
+        "Young": 0.0
+      }
+    },
+    "Angelina_Jolie": {
+      "estimated_src_attrs_by_D": {
+        "Black_Hair": 0.0,
+        "Blond_Hair": 0.0,
+        "Brown_Hair": 0.0,
+        "Male": 0.0,
+        "Young": 1.0
+      }
+    },
+    "George_W_Bush": {
+      "estimated_src_attrs_by_D": {
+        "Black_Hair": 0.0,
+        "Blond_Hair": 0.0,
+        "Brown_Hair": 0.0,
+        "Male": 1.0,
+        "Young": 0.0
+      }
+    },
+    "Serena_Williams": {
+      "estimated_src_attrs_by_D": {
+        "Black_Hair": 0.0,
+        "Blond_Hair": 0.0,
+        "Brown_Hair": 0.0,
+        "Male": 0.0,
+        "Young": 1.0
+      }
+    },
+    "Tony_Blair": {
+      "estimated_src_attrs_by_D": {
+        "Black_Hair": 0.0,
+        "Blond_Hair": 0.0,
+        "Brown_Hair": 0.0,
+        "Male": 1.0,
+        "Young": 0.0
+      }
+    }
+  },
+  "device": "xpu",
+  "eval_seconds": 1056.3,
+  "cpu_timing": {
+    "torch_threads": 4,
+    "G_forward_1img_ms": 203.5,
+    "G_forward_batch5_ms": 877.3,
+    "edit_photo_single_edit_ms (250x250 LFW, incl. SCRFD+D+G+paste)": 756.7,
+    "edit_photo_many_5_edits_ms": 1366.5,
+    "note": "测量时 CPU 正被其它预处理任务占用, 数字偏慢, 仅供量级参考"
+  }
+}

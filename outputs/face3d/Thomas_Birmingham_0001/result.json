@@ -1,0 +1,104 @@
+{
+  "input": "data\\lfw\\Thomas_Birmingham\\Thomas_Birmingham_0001.jpg",
+  "image_size": [
+    250,
+    250
+  ],
+  "num_vertices": 38365,
+  "num_triangles": 76073,
+  "mesh_overlay_ms": 503.8,
+  "faces": [
+    {
+      "bbox": [
+        74.8,
+        67.1,
+        167.4,
+        183.7
+      ],
+      "score": 0.858,
+      "roi_box": [
+        38.6,
+        57.6,
+        203.6,
+        222.6
+      ],
+      "pose_deg": {
+        "yaw": -4.96,
+        "pitch": -0.55,
+        "roll": -13.08
+      },
+      "fit_ms": 35.4,
+      "render_view_512_ms": 251.4,
+      "video": null
+    },
+    {
+      "bbox": [
+        26.7,
+        113.8,
+        68.9,
+        174.3
+      ],
+      "score": 0.816,
+      "roi_box": [
+        7.3,
+        110.8,
+        88.3,
+        191.8
+      ],
+      "pose_deg": {
+        "yaw": -2.68,
+        "pitch": -4.45,
+        "roll": 5.61
+      },
+      "fit_ms": 33.2,
+      "render_view_512_ms": 296.5,
+      "video": null
+    },
+    {
+      "bbox": [
+        203.2,
+        1.6,
+        281.0,
+        107.0
+      ],
+      "score": 0.685,
+      "roi_box": [
+        170.1,
+        -4.9,
+        314.1,
+        139.1
+      ],
+      "pose_deg": {
+        "yaw": -37.25,
+        "pitch": -8.91,
+        "roll": -23.53
+      },
+      "fit_ms": 39.3,
+      "render_view_512_ms": 298.8,
+      "video": null
+    },
+    {
+      "bbox": [
+        149.4,
+        45.1,
+        204.7,
+        117.9
+      ],
+      "score": 0.503,
+      "roi_box": [
+        126.6,
+        40.0,
+        227.6,
+        141.0
+      ],
+      "pose_deg": {
+        "yaw": -42.08,
+        "pitch": 44.59,
+        "roll": 47.68
+      },
+      "fit_ms": 38.9,
+      "render_view_512_ms": 234.5,
+      "video": null
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "input": "data\\lfw\\Marc-Andre_Fleury\\Marc-Andre_Fleury_0001.jpg",
+  "image_size": [
+    250,
+    250
+  ],
+  "num_vertices": 38365,
+  "num_triangles": 76073,
+  "mesh_overlay_ms": 182.5,
+  "faces": [
+    {
+      "bbox": [
+        81.4,
+        63.9,
+        190.7,
+        195.9
+      ],
+      "score": 0.817,
+      "roi_box": [
+        41.0,
+        51.8,
+        231.0,
+        241.8
+      ],
+      "pose_deg": {
+        "yaw": 14.97,
+        "pitch": -3.47,
+        "roll": 25.0
+      },
+      "fit_ms": 33.1,
+      "render_view_512_ms": 256.5,
+      "video": null
+    }
+  ]
+}

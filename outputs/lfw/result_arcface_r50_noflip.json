@@ -1,0 +1,86 @@
+{
+  "model": "arcface_r50_noflip",
+  "flip_test": false,
+  "detection": {
+    "det": 7701
+  },
+  "embed_ms_per_image": 46.72,
+  "accuracy": 99.833,
+  "accuracy_std": 0.197,
+  "auc": 0.999459,
+  "eer": 0.267,
+  "TAR@FAR=0.001": 99.733,
+  "TAR@FAR=0.01": 99.833,
+  "threshold_cos": 0.244,
+  "fold_accuracies": [
+    99.5,
+    100.0,
+    100.0,
+    99.83,
+    99.5,
+    100.0,
+    99.67,
+    100.0,
+    100.0,
+    99.83
+  ],
+  "num_errors_at_mean_threshold": 8,
+  "errors": [
+    {
+      "pair": 112,
+      "img1": "lfw\\Janica_Kostelic\\Janica_Kostelic_0001.jpg",
+      "img2": "lfw\\Janica_Kostelic\\Janica_Kostelic_0002.jpg",
+      "same": true,
+      "cos": 0.1642
+    },
+    {
+      "pair": 185,
+      "img1": "lfw\\Martha_Bowen\\Martha_Bowen_0001.jpg",
+      "img2": "lfw\\Martha_Bowen\\Martha_Bowen_0002.jpg",
+      "same": true,
+      "cos": 0.154
+    },
+    {
+      "pair": 1861,
+      "img1": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0001.jpg",
+      "img2": "lfw\\Cristina_Fernandez\\Cristina_Fernandez_0002.jpg",
+      "same": true,
+      "cos": 0.0202
+    },
+    {
+      "pair": 2498,
+      "img1": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0001.jpg",
+      "img2": "lfw\\Elisabeth_Schumacher\\Elisabeth_Schumacher_0002.jpg",
+      "same": true,
+      "cos": 0.014
+    },
+    {
+      "pair": 2550,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0002.jpg",
+      "same": true,
+      "cos": 0.0262
+    },
+    {
+      "pair": 2551,
+      "img1": "lfw\\Jim_OBrien\\Jim_OBrien_0001.jpg",
+      "img2": "lfw\\Jim_OBrien\\Jim_OBrien_0003.jpg",
+      "same": true,
+      "cos": 0.016
+    },
+    {
+      "pair": 3651,
+      "img1": "lfw\\Debra_Messing\\Debra_Messing_0001.jpg",
+      "img2": "lfw\\Debra_Messing\\Debra_Messing_0002.jpg",
+      "same": true,
+      "cos": 0.1448
+    },
+    {
+      "pair": 3872,
+      "img1": "lfw\\Surakait_Sathirathai\\Surakait_Sathirathai_0001.jpg",
+      "img2": "lfw\\Surakait_Sathirathai\\Surakait_Sathirathai_0002.jpg",
+      "same": true,
+      "cos": 0.0974
+    }
+  ]
+}

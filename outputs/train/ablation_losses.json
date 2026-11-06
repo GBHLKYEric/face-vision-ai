@@ -1,0 +1,77 @@
+{
+  "setting": {
+    "device": "xpu",
+    "epochs": 5,
+    "subset": 2000,
+    "backbone": "mbf",
+    "heads": [
+      "softmax",
+      "sphereface",
+      "cosface",
+      "arcface",
+      "curricularface"
+    ]
+  },
+  "results": {
+    "softmax": {
+      "lfw_acc_per_epoch": [
+        82.833,
+        86.783,
+        89.75,
+        90.917,
+        91.2
+      ],
+      "final_lfw_acc": 91.2,
+      "final_tar@far1e-3": 59.167,
+      "final_train_acc": 0.9477982954545454
+    },
+    "sphereface": {
+      "lfw_acc_per_epoch": [
+        82.033,
+        75.617,
+        80.233,
+        84.217,
+        85.317
+      ],
+      "final_lfw_acc": 85.317,
+      "final_tar@far1e-3": 34.7,
+      "final_train_acc": 0.7053267045454545
+    },
+    "cosface": {
+      "lfw_acc_per_epoch": [
+        81.05,
+        85.483,
+        88.717,
+        90.85,
+        91.083
+      ],
+      "final_lfw_acc": 91.083,
+      "final_tar@far1e-3": 62.0,
+      "final_train_acc": 0.892874053030303
+    },
+    "arcface": {
+      "lfw_acc_per_epoch": [
+        82.317,
+        86.333,
+        89.55,
+        91.6,
+        91.85
+      ],
+      "final_lfw_acc": 91.85,
+      "final_tar@far1e-3": 62.2,
+      "final_train_acc": 0.8853219696969697
+    },
+    "curricularface": {
+      "lfw_acc_per_epoch": [
+        82.85,
+        85.15,
+        88.867,
+        90.533,
+        90.917
+      ],
+      "final_lfw_acc": 90.917,
+      "final_tar@far1e-3": 59.467,
+      "final_train_acc": 0.8747159090909091
+    }
+  }
+}

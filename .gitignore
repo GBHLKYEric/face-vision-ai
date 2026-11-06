@@ -1,0 +1,33 @@
+# 数据集、模型权重、训练产物 (都可以用脚本重新下载/生成)
+data/
+weights/
+runs/
+logs/
+_scratch/
+outputs/**/*.npz
+outputs/**/*.npy
+outputs/**/*.pkl
+outputs/**/*.onnx
+outputs/**/*.pt
+outputs/**/*.obj
+outputs/**/*.ply
+outputs/lfw/aligned*
+outputs/face3d/ui/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+
+# 本地工具配置
+.claude/
+docs/teaching/node_modules/
+docs/teaching/artifact.html
+
+# 系统
+.DS_Store
+Thumbs.db
+.gradio/
